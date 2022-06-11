@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+.cube {
+    transform-origin: center;
+    position: fixed;
+}
+
+.cube:hover {
+    filter: hue-rotate(100deg);
+}
