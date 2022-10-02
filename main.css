@@ -1,13 +1,24 @@
 body {
     margin: 0;
+    background-color: silver;
     overflow: hidden;
 }
 
 .cube {
     transform-origin: center;
     position: fixed;
+    transition: 1s ease-out;
+    filter: hue-rotate(170deg);
+}
+
+.hoverClass {
+    transition: 0.8s ease-in;
+    transform: translateY(-10px);
+    filter: hue-rotate(200deg);
 }
 
 .cube:hover {
-    filter: hue-rotate(100deg);
+    transition: 0.8s;
+    transform: translateY(-10px);
+    filter: hue-rotate(200deg);
 }
